@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Услуги и сервисы</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__column header__column--menu">
+        <button class="header__button-image" tabindex="1"></button>
+        <img src="svg/divider.svg" alt="Логотип" class="header__image-lineone" tabindex="-1">
+        <img src="svg/logo.svg" alt="Логотип" class="header__image-logo" tabindex="1">
+      </div>
+      <div class="header__column header__column--contacts">
+        <div class="header__connection">
+          <a href="#" tabindex="1">
+            <img src="svg/call.svg" alt="Звонок">
+          </a>
+          <a href="#" tabindex="1">
+            <img src="svg/chat.svg" alt="Чат">
+          </a>
+          <a href="#" tabindex="1">
+            <img src="svg/profile.svg" alt="Профиль">
+          </a>
+        </div>
+        <div class="header__actions">
+          <img src="svg/divider.svg" alt="Логотип" class="header__image-linetwo" tabindex="-1">
+          <a href="#" tabindex="1" class="header__link"> 
+            <div class="header__link--text"> Оставить заявку</div>
+            <img src="svg/repair.svg" alt="Ремонт">
+          </a>
+          <a href="#" tabindex="1" class="header__link"> 
+            <div class="header__link--text">Статус ремонта</div>
+            <img src="svg/checkstatus.svg" alt="Проверка статуса ремонта">
+          </a>
+        </div>
+      </div>
+    </div>
+    <img class="header__shadow" src="svg/shadow.svg" alt="Тень">
+    <div class="header__title">
+      <h1>
+        <div class="header__column--title"> 
+          <img class="header__line" src="svg/highlight.svg" alt="Линия подчеркивания">
+          <div class="header__text">
+            <strong>Услуги и сервисы</strong>
+          </div>
+        </div>
+      </h1>
+    </div>
+  </header>
+  <nav class="menu" id="menu" onmousemove="scrollMenu(event)">
+    <ul class="menu__list" id="menuList">
+      <li class="menu__item"><a href="#" class="menu__link" tabindex="8">Ремонтируемые бренды</a></li>
+      <li class="menu__item"><a href="#" class="menu__link" tabindex="8">Ремонтируемые устройства</a></li>
+      <li class="menu__item"><a href="#" class="menu__link" tabindex="9">Дополнительные услуги</a></li>
+      <li class="menu__item"><a href="#" class="menu__link" tabindex="10">Цены на услуги</a></li>
+      <li class="menu__item"><a href="#" class="menu__link" tabindex="8">Адреса сервисных магазинов</a></li>
+      <li class="menu__item"><a href="#" class="menu__link" tabindex="11">Специальные цены</a></li>
+      <li class="menu__item"><a href="#" class="menu__link" tabindex="12">Отзывы</a></li>
+    </ul>
+  </nav>
+  <main class="main">
+    <div class="main__column">
+      <p class="main__text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+        <p  class="main__text">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p> 
+      <button class="main__button" tabindex="13">
+        <div class="main__button-image"></div>
+        <span>Читать далее</span>
+      </button>
+    </div>
+    <div class="main__column">
+      <img src="png/Picture.png" alt="" class="main__image">
+    </div>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
